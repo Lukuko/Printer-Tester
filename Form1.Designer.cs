@@ -38,6 +38,7 @@
             Title = new TextBox();
             textBox2 = new TextBox();
             IpInput = new TextBox();
+            HowToUse = new Button();
             SuspendLayout();
             // 
             // TestButton
@@ -119,17 +120,29 @@
             // 
             // IpInput
             // 
+            IpInput.AcceptsTab = true;
             IpInput.Location = new Point(12, 40);
             IpInput.Name = "IpInput";
             IpInput.Size = new Size(235, 23);
             IpInput.TabIndex = 13;
             IpInput.TextChanged += IpInput_TextChanged;
             // 
+            // HowToUse
+            // 
+            HowToUse.Location = new Point(513, 2);
+            HowToUse.Name = "HowToUse";
+            HowToUse.Size = new Size(34, 28);
+            HowToUse.TabIndex = 14;
+            HowToUse.Text = "?";
+            HowToUse.UseVisualStyleBackColor = true;
+            HowToUse.Click += HowToUse_Click;
+            // 
             // Body
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(559, 450);
+            Controls.Add(HowToUse);
             Controls.Add(IpInput);
             Controls.Add(textBox2);
             Controls.Add(Title);
@@ -141,6 +154,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "Body";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Ferramenta para Teste de Impressoras";
             ResumeLayout(false);
             PerformLayout();
@@ -156,5 +170,6 @@
         private TextBox Title;
         private TextBox textBox2;
         private TextBox IpInput;
+        private Button HowToUse;
     }
 }

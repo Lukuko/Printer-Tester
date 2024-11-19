@@ -25,26 +25,18 @@ namespace printer_tester
 
         private void TestButton_Click(object sender, EventArgs e)
         {
-            CMD.Text += "";
+            CMD.ResetText();
             Ping ping = new Ping();
             PingReply pingResponse;
             string result;
             pingResponse = ping.Send(ip);
             if (pingResponse.Status == IPStatus.Success)
             {
-                result = $"Sucesso a impressora de ip {ip} está comunicando";
+                result = $"Tester: Sucesso a impressora de ip {ip} está comunicando";
             }
             else
             {
-                result = $"Sucesso a impressora de ip {ip} não está comunicando";
-            }
-            for (int i = 0; i < 10; i++)
-            {
-
-                CMD.Text += $"Tester: Testando a impressora de ip {ip}" + Environment.NewLine;
-                CMD.SelectionStart = CMD.Text.Length;
-                CMD.ScrollToCaret();
-
+                result = $"Tester: Erro a impressora de ip {ip} não está comunicando";
             }
             CMD.Text += result + Environment.NewLine;
             CMD.SelectionStart = CMD.Text.Length;
@@ -60,6 +52,13 @@ namespace printer_tester
         private void IpInput_TextChanged(object sender, EventArgs e)
         {
             ip = (string)IpInput.Text;
+        }
+
+        private void HowToUse_Click(object sender, EventArgs e)
+        {
+            string message = "Para Utilizar o testador basta inserir o Ip da impressora e logo depois Clicar no botão 'Testar Impressora'\nCriado Por Davi Menezes\ngithub:https://github.com/Lukuko\nLivre Para uso";
+            string title = "Como Usar o Programa";
+            DialogResult result = MessageBox.Show(message, title);
         }
     }
 }

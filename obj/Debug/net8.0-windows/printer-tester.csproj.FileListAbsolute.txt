@@ -1,0 +1,17 @@
+C:\Users\davim\source\repos\printer-tester\bin\Debug\net8.0-windows\printer-tester.exe
+C:\Users\davim\source\repos\printer-tester\bin\Debug\net8.0-windows\printer-tester.deps.json
+C:\Users\davim\source\repos\printer-tester\bin\Debug\net8.0-windows\printer-tester.runtimeconfig.json
+C:\Users\davim\source\repos\printer-tester\bin\Debug\net8.0-windows\printer-tester.dll
+C:\Users\davim\source\repos\printer-tester\bin\Debug\net8.0-windows\printer-tester.pdb
+C:\Users\davim\source\repos\printer-tester\obj\Debug\net8.0-windows\printer_tester.Body.resources
+C:\Users\davim\source\repos\printer-tester\obj\Debug\net8.0-windows\printer-tester.csproj.GenerateResource.cache
+C:\Users\davim\source\repos\printer-tester\obj\Debug\net8.0-windows\printer-tester.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davim\source\repos\printer-tester\obj\Debug\net8.0-windows\printer-tester.AssemblyInfoInputs.cache
+C:\Users\davim\source\repos\printer-tester\obj\Debug\net8.0-windows\printer-tester.AssemblyInfo.cs
+C:\Users\davim\source\repos\printer-tester\obj\Debug\net8.0-windows\printer-tester.csproj.CoreCompileInputs.cache
+C:\Users\davim\source\repos\printer-tester\obj\Debug\net8.0-windows\printer-tester.dll
+C:\Users\davim\source\repos\printer-tester\obj\Debug\net8.0-windows\refint\printer-tester.dll
+C:\Users\davim\source\repos\printer-tester\obj\Debug\net8.0-windows\printer-tester.pdb
+C:\Users\davim\source\repos\printer-tester\obj\Debug\net8.0-windows\printer-tester.genruntimeconfig.cache
+C:\Users\davim\source\repos\printer-tester\obj\Debug\net8.0-windows\ref\printer-tester.dll
+C:\Users\davim\source\repos\printer-tester\obj\Debug\net8.0-windows\printer-tester.sourcelink.json
